@@ -10,13 +10,21 @@ class BooksController extends Controller
     public function store()
     {
         $data = $this->validateRequest();
-        Book::create($data);
+        $book = Book::create($data);
+        return redirect('/books/' . $book->id);
     }
 
     public function update(Book $book)
     {
         $data = $this->validateRequest();
         $book->update($data);
+        return redirect('/books/' . $book->id);
+    }
+
+    public function destroy(Book $book)
+    {
+        $book->delete();
+        return redirect('/books');
     }
 
     public function validateRequest()
