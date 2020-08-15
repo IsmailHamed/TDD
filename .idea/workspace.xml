@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595183c9-fdf1-4b90-9d06-ee2525e84de0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/Feature/ExampleTest.php" afterDir="false" />
+    <list default="true" id="7907e004-4352-43b8-afb2-026fbe03020f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php-test-framework.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +149,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -157,10 +160,11 @@
     <option name="myCommands">
       <command value="cd src" />
       <command value="artisan make:controller BooksController" />
-      <command value="artisan config:clear" />
       <command value="APP_ENV=testing php artisan test " />
       <command value="php artisan test --env=testing " />
       <command value="artisan make:model Book -m" />
+      <command value="artisan config:clear" />
+      <command value="artisan route:clear" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -168,7 +172,11 @@
       <recentPaths value="$PROJECT_DIR$/src" />
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.BookReservationTest.test_a_book_can_be_updated">
+  <component name="RunManager" selected="PHPUnit.BookReservationTest">
+    <configuration name="BookReservationTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Feature/BookReservationTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="BookReservationTest.test_a_author_is_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Feature/BookReservationTest.php" method="test_a_author_is_required" scope="Method" />
       <method v="2" />
@@ -187,10 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.BookReservationTest" />
+        <item itemvalue="PHPUnit.BookReservationTest.test_a_book_can_be_added_to_the_library" />
+        <item itemvalue="PHPUnit.BookReservationTest.test_a_title_is_required" />
         <item itemvalue="PHPUnit.BookReservationTest.test_a_book_can_be_updated" />
         <item itemvalue="PHPUnit.BookReservationTest.test_a_author_is_required" />
-        <item itemvalue="PHPUnit.BookReservationTest.test_a_title_is_required" />
-        <item itemvalue="PHPUnit.BookReservationTest.test_a_book_can_be_added_to_the_library" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +219,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="0" width="840" height="690" key="#CLI_Interpreters" timestamp="1597491014940">
@@ -256,62 +268,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="469" y="55" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1597487695441" />
-    <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1597491362508">
+    <state x="438" y="87" key="#xdebugger.evaluate" timestamp="1597524047890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1597491362508" />
+    <state x="438" y="87" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1597524047890" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1597491258798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597491258798" />
-    <state width="1322" height="201" key="GridCell.Tab.0.bottom" timestamp="1597522615040">
+    <state x="507" y="286" key="Github.CreateGistDialog" timestamp="1597524119373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597522615040" />
-    <state width="1322" height="201" key="GridCell.Tab.0.center" timestamp="1597522615040">
+    <state x="507" y="286" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1597524119373" />
+    <state width="1322" height="202" key="GridCell.Tab.0.bottom" timestamp="1597524227337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597522615040" />
-    <state width="1322" height="201" key="GridCell.Tab.0.left" timestamp="1597522615040">
+    <state width="1322" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597524227337" />
+    <state width="1322" height="202" key="GridCell.Tab.0.center" timestamp="1597524227337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597522615040" />
-    <state width="1322" height="201" key="GridCell.Tab.0.right" timestamp="1597522615040">
+    <state width="1322" height="202" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597524227337" />
+    <state width="1322" height="202" key="GridCell.Tab.0.left" timestamp="1597524227337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597522615040" />
-    <state width="1322" height="250" key="GridCell.Tab.1.bottom" timestamp="1597491370842">
+    <state width="1322" height="202" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597524227337" />
+    <state width="1322" height="202" key="GridCell.Tab.0.right" timestamp="1597524227337">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597491370842" />
-    <state width="1322" height="250" key="GridCell.Tab.1.center" timestamp="1597491370842">
+    <state width="1322" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597524227337" />
+    <state width="1322" height="250" key="GridCell.Tab.1.bottom" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597491370842" />
-    <state width="1322" height="250" key="GridCell.Tab.1.left" timestamp="1597491370842">
+    <state width="1322" height="250" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.1.center" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597491370842" />
-    <state width="1322" height="250" key="GridCell.Tab.1.right" timestamp="1597491370842">
+    <state width="1322" height="250" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.1.left" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597491370842" />
-    <state width="1322" height="250" key="GridCell.Tab.2.bottom" timestamp="1597491370842">
+    <state width="1322" height="250" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.1.right" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597491370842" />
-    <state width="1322" height="250" key="GridCell.Tab.2.center" timestamp="1597491370841">
+    <state width="1322" height="250" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.2.bottom" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1597491370841" />
-    <state width="1322" height="250" key="GridCell.Tab.2.left" timestamp="1597491370841">
+    <state width="1322" height="250" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.2.center" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1597491370841" />
-    <state width="1322" height="250" key="GridCell.Tab.2.right" timestamp="1597491370842">
+    <state width="1322" height="250" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.2.left" timestamp="1597524094168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="250" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1597491370842" />
+    <state width="1322" height="250" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
+    <state width="1322" height="250" key="GridCell.Tab.2.right" timestamp="1597524094168">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="250" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1597524094168" />
     <state width="1322" height="250" key="GridCell.Tab.3.bottom" timestamp="1597491350031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -328,10 +344,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="250" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1597491350031" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1597522596109">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1597523984269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597522596109" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597523984269" />
     <state x="452" y="224" key="SymfonyComponentCompositeDataDialog" timestamp="1597489113486">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -356,16 +372,28 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="258" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1597493985704" />
-    <state x="347" y="176" width="672" height="677" key="run.anything.popup" timestamp="1597492085837">
+    <state x="347" y="176" width="672" height="677" key="run.anything.popup" timestamp="1597524177975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="347" y="176" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597492085837" />
+    <state x="347" y="176" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597524177975" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597521955749">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597521955749" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/tests/Feature/BookReservationTest.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TDD@BookReservationTest.xml" NAME="BookReservationTest Coverage Results" MODIFIED="1597488664791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TDD@BookReservationTest_test_a_book_can_be_added_to_the_library.xml" NAME="BookReservationTest.test_a_book_can_be_added_to_the_library Coverage Results" MODIFIED="1597524009006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
