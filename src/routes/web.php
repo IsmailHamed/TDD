@@ -12,5 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::Post('/books','BooksController@store');
-Route::Patch('/books/{book}','BooksController@update');
+Route::Post('/books', 'BooksController@store');
+Route::Patch('/books/{book}', 'BooksController@update');
+Route::Delete('/books/{book}', 'BooksController@destroy');
+
+Route::Post('/author', 'AuthorController@store');
