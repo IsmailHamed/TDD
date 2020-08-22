@@ -23,17 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7907e004-4352-43b8-afb2-026fbe03020f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/Unit/BookTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TDD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/factories/AuthorFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/factories/BookFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/migrations/2020_08_22_220315_create_reservations_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Unit/BookReservationTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Author.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/BooksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_08_15_114810_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_08_15_114810_create_books_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/2020_08_15_214229_create_authors_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2020_08_15_214229_create_authors_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Feature/BookManagementTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Feature/BookManagementTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/Unit/AuthorTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,13 +176,15 @@
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IHamed\PhpstormProjects\TDD\src\tests\Unit" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\IHamed\PhpstormProjects\TDD\src\tests\Feature" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="cd src" />
       <command value="artisan make:controller BooksController" />
       <command value="APP_ENV=testing php artisan test " />
       <command value="php artisan test --env=testing " />
@@ -195,6 +193,22 @@
       <command value="artisan route:clear" />
       <command value="artisan make:test BookTest --unite" />
       <command value="artisan make:test BookTest --unit" />
+      <command value="artisan make:test BookReservationTest" />
+      <command value="php artisan help make:factory" />
+      <command value="artisan help make:factory" />
+      <command value="php artisan make:factory -m book" />
+      <command value=" artisan make:factory -m book" />
+      <command value="cd .." />
+      <command value="cd src" />
+      <command value="artisan make:factory -m book" />
+      <command value="artisan make:factory -m Book" />
+      <command value=" artisan make:factory BookFactory -m book" />
+      <command value="artisan make:factory BookFactory -m book" />
+      <command value="artisan make:factory BookFactory -m Book" />
+      <command value="artisan make:factory BookFactory" />
+      <command value="artisan make:factory AuthorFactory -m Author" />
+      <command value="artisan make:factory AuthorFactory " />
+      <command value="artisan make:model Reservation -m" />
     </option>
   </component>
   <component name="RunAnythingContextRecentDirectoryCache">
@@ -202,34 +216,34 @@
       <recentPaths value="$PROJECT_DIR$/src" />
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.BookManagementTest.test_a_book_can_be_updated">
-    <configuration name="BookManagementTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\BookManagementTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Feature/BookManagementTest.php" scope="Class" />
+  <component name="RunManager" selected="PHPUnit.BookReservationTest.test_not_checked_out_exception_is_thrown">
+    <configuration name="BookReservationTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Unit/BookReservationTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="BookManagementTest.test_a_author_is_required" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\BookManagementTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Feature/BookManagementTest.php" method="test_a_author_is_required" scope="Method" />
+    <configuration name="BookReservationTest.test_a_can_be_checked_out (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Unit/BookReservationTest.php" method="test_a_can_be_checked_out" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="BookManagementTest.test_a_book_can_be_updated" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\BookManagementTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Feature/BookManagementTest.php" method="test_a_book_can_be_updated" scope="Method" />
+    <configuration name="BookReservationTest.test_a_can_be_checked_out" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Unit/BookReservationTest.php" method="test_a_can_be_checked_out" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="BookManagementTest.test_a_new_author_is_automatically_added" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\BookManagementTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Feature/BookManagementTest.php" method="test_a_new_author_is_automatically_added" scope="Method" />
+    <configuration name="BookReservationTest.test_a_can_be_returned" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Unit/BookReservationTest.php" method="test_a_can_be_returned" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="BookTest.test_an_author_id_is_recorded" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\BookTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Unit/BookTest.php" method="test_an_author_id_is_recorded" scope="Method" />
+    <configuration name="BookReservationTest.test_not_checked_out_exception_is_thrown" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\BookReservationTest" configuration_file="/var/www/html/phpunit.xml" file="$PROJECT_DIR$/src/tests/Unit/BookReservationTest.php" method="test_not_checked_out_exception_is_thrown" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.BookManagementTest.test_a_book_can_be_updated" />
-        <item itemvalue="PHPUnit.BookManagementTest.test_a_author_is_required" />
-        <item itemvalue="PHPUnit.BookManagementTest" />
-        <item itemvalue="PHPUnit.BookManagementTest.test_a_new_author_is_automatically_added" />
-        <item itemvalue="PHPUnit.BookTest.test_an_author_id_is_recorded" />
+        <item itemvalue="PHPUnit.BookReservationTest.test_not_checked_out_exception_is_thrown" />
+        <item itemvalue="PHPUnit.BookReservationTest.test_a_can_be_returned" />
+        <item itemvalue="PHPUnit.BookReservationTest.test_a_can_be_checked_out (1)" />
+        <item itemvalue="PHPUnit.BookReservationTest" />
+        <item itemvalue="PHPUnit.BookReservationTest.test_a_can_be_checked_out" />
       </list>
     </recent_temporary>
   </component>
@@ -247,8 +261,16 @@
       <workItem from="1597558763664" duration="9000" />
       <workItem from="1597691644646" duration="4985000" />
       <workItem from="1597731614965" duration="6000" />
-      <workItem from="1598128121715" duration="2859000" />
+      <workItem from="1598128121715" duration="7511000" />
     </task>
+    <task id="LOCAL-00001" summary="add new test cases">
+      <created>1598131108414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598131108414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +290,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add new test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new test cases" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="0" width="840" height="690" key="#CLI_Interpreters" timestamp="1597491014940">
@@ -334,22 +358,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="507" y="286" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1597524119373" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1598130725406">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1598135810782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598130725406" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1598130725406">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598135810782" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1598135810782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598130725406" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1598130725406">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598135810782" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1598135810782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598130725406" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1598130725406">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598135810782" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1598135810782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598130725406" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598135810782" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1598130158209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -410,10 +434,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="452" y="224" key="SymfonyComponentCompositeDataDialog/0.0.1366.728@0.0.1366.728" timestamp="1597489113486" />
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1597529169797">
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1598131135437">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597529169797" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598131135437" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1598129268868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -442,25 +466,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="557" y="258" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1366.728@0.0.1366.728" timestamp="1597493985704" />
-    <state x="347" y="176" width="672" height="677" key="run.anything.popup" timestamp="1597697582337">
+    <state x="347" y="176" width="672" height="677" key="run.anything.popup" timestamp="1598135865969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="347" y="176" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597697582337" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598129964749">
+    <state x="347" y="176" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598135865969" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598134252913">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598129964749" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/tests/Feature/BookReservationTest.php</url>
-          <line>20</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598134252913" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TDD@BookReservationTest.xml" NAME="BookReservationTest Coverage Results" MODIFIED="1597488664791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
